@@ -2,6 +2,9 @@ from datetime import datetime
 from collections import defaultdict
 
 
+print("Hi")
+
+
 def get_birthdays_per_week(users):
     happy_days = defaultdict(list)
     current_day = datetime(year=2023, month=10, day=28)
