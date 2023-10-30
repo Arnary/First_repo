@@ -1,6 +1,8 @@
 from datetime import datetime
 from collections import defaultdict
 
+print("Hi")
+
 
 def get_birthdays_per_week(users):
     happy_days = defaultdict(list)
